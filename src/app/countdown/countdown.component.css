@@ -1,0 +1,26 @@
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 16px;
+  gap: -1rem;
+  width: 700px;  
+  height: 470px;  
+  background-image: url('../../assets/chrismas-bg.jpg');  
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+h2 {
+  color: #fff;
+}
+
+p {
+  font-size: 2.4rem;
+  color: #264221;
+}

@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+  /* overflow: hidden;
+  filter: drop-shadow(0 0 3px white); */
+}
+
+/* Variables */
+:root {
+  --density: 70; /* number of snowflakes */
+  --grid-size: 600px; /* size of the snow grid */
+  --speed: 3s; /* animation speed */
+}
+
+/* Background */
+html {
+  height: 100%;
+  background: linear-gradient(#123 30%, #667);
+  overflow: hidden;
+}
+
